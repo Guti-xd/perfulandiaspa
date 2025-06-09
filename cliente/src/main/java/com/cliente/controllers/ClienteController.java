@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController // Indica que esta clase responde a peticiones REST
-@RequestMapping("/api/v1/cliente") // Ruta base para este controlador
+@RequestMapping("/cliente/cliente") // Ruta base para este controlador
 public class ClienteController {
 
     @Autowired // Inyección del servicio de cliente
