@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController // Indica que esta clase responde a peticiones REST
-@RequestMapping("/api/v1/historial_compra") // Ruta base para este controlador
+@RequestMapping("/cliente/historial_compra") // Ruta base para este controlador
 public class HistorialCompraController {
 
     @Autowired // Inyección del servicio
